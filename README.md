@@ -1,5 +1,10 @@
 # Kinetic data analysis
 For the kinetic experiments the files are named exp1... up to and until exp14 .... This contains the raw data as csv file. 
+To read the raw data and look at the plots and calculate GR etc. the R file called 96-well plate per row.R is used. 
+There are separate files to analyse and plot the GR and yield distribution for the washed vs not washed experiment,
+the HEPES experiment, the water experiment, the different initial dilutions experiment, the reproduction experiment and the
+the salt experiments. 
+There is a separate R file with also the data of one measurement bench experiment (exp 13).
 
 # Broad growth screen analysis
 Start with opening the file Loading data.R where the control data can be loaded and plotted from (no strain growth). 
